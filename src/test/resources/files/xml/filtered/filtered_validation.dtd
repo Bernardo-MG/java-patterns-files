@@ -1,0 +1,4 @@
+<!ELEMENT test (value*)>
+<!ELEMENT value (#PCDATA)>
+<!ATTLIST value attribute1 (true|false) "false">
+<!ATTLIST value attribute2 (true|false) "false">
